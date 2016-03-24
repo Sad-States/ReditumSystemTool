@@ -1,0 +1,36 @@
+<center>
+<script>
+function POPfunction() {
+var npopulation = prompt("Please enter your nation's population without any commas (e.g. 300000000)", "Nation population");
+var x = 10;
+var res = npopulation/x;
+if (npopulation != null) {
+    document.getElementById("POPresult").innerHTML =
+    "You're nation's population in Audaxia is " + res;
+}
+}
+</script>
+<p>Click the button below to get your nation's population.</p>
+
+<button onclick="POPfunction()">Click Here</button>
+
+<p id="POPresult"></p>
+
+<script>
+function GPDfunction() {
+var GPD = prompt("Please enter your nation's GPD without any commas (e.g. 300000000000)", "Your Nation's GPD ");
+var x = 10;
+var res = GPD/x;
+if (GPD != null) {
+    document.getElementById("GPDresult").innerHTML =
+    "You're nation's GPD in Audaxia is " + res;
+}
+}
+</script>
+
+<p>Click the button below to get your nation's GPD.</p>
+
+<button onclick="GPDfunction()">Click Here</button>
+
+<p id="GPDresult"></p>
+</center>
